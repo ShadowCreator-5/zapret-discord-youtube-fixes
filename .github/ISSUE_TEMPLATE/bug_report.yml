@@ -10,8 +10,12 @@ body:
       label: ⚠️ Чеклист
       description: Перед созданием нового Issue, удостоверьтесь что выполнили следующие пункты
       options:
-        - label: Я искал решение проблемы в [README](https://github.com/Flowseal/zapret-discord-youtube/blob/main/README.md) и среди [Issues](https://github.com/Flowseal/zapret-discord-youtube/issues)
-        - label: Я скачал ``zapret-discord-youtube`` из [релизов официального репозитория](https://github.com/Flowseal/zapret-discord-youtube/releases)
+        - label: Я искал решение проблемы в репозитории Flowseala и этом
+          required: true
+        - label: Данная проблема связана с форком
+          required: true
+        - label: Ознакомился с [правилами создания issue](https://github.com/Kail-225/zapret-discord-youtube-fixes/issues/2)
+          required: true
 
   - type: textarea
     id: description
@@ -19,15 +23,6 @@ body:
       label: Опишите вашу проблему
       description: Чётко опишите проблему с которой вы столкнулись
       placeholder: Описание проблемы
-    validations:
-      required: true
-
-  - type: textarea
-    id: version
-    attributes:
-      label: Версия zapret-discord-youtube
-      description: Версия zapret-discord-youtube на которой вы словили проблему
-      placeholder: Версия
     validations:
       required: true
 
