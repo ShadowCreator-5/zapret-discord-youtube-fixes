@@ -14,7 +14,7 @@ body:
           required: true
         - label: Данная проблема связана с форком
           required: true
-        - label: Ознакомился с [правилами создания issue](https://github.com/Kail-225/zapret-discord-youtube-fixes/issues/2)
+        - label: Ознакомился с [правилами создания issue](https://github.com/ShadowCreator-5/zapret-discord-youtube-fixes/issues/1)
           required: true
 
   - type: textarea
